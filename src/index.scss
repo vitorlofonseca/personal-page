@@ -6,6 +6,11 @@ $font-color: #fffde5;
   src: url("/fonts/Arty\ Signature.otf") format("opentype");
 }
 
+@font-face {
+  font-family: Ubuntu;
+  src: url("/fonts/Ubuntu-Regular.ttf") format("opentype");
+}
+
 body {
   color: $font-color;
   background-color: $color-background;

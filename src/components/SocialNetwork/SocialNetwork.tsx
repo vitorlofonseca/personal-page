@@ -9,7 +9,7 @@ interface Props {
 export const SocialNetwork = ({ name, url, image }: Props) => {
   return (
     <a target="blank" href={url}>
-      <img className={styles.img} src={image} alt={`${name} logo`} />
+      <img className={styles.Image} src={image} alt={`${name} logo`} />
     </a>
   );
 };
