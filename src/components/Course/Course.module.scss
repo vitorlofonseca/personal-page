@@ -1,0 +1,14 @@
+.CourseImage {
+  width: 16rem;
+  height: 10rem;
+  transition: 0.3s;
+  object-fit: cover;
+
+  &:hover {
+    cursor: pointer;
+
+    width: 17rem;
+    transition: 0.3s;
+    height: 11rem;
+  }
+}
