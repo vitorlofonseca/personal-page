@@ -1,7 +1,7 @@
 import { SocialNetwork } from "./components/SocialNetwork/SocialNetwork";
 import styles from "./App.module.scss";
 import { Course } from "./components/Course/Course";
-import pic from "./assets/pic.png";
+import pic from "./assets/pic.jpg";
 
 import behance from "./assets/social-networks/behance.png";
 import github from "./assets/social-networks/github.png";
