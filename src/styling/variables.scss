@@ -1,0 +1,27 @@
+$color-background: #2b2b2b;
+$font-color: #fffde5;
+$grey-1: #c4c2c2;
+
+@font-face {
+  font-family: ArtySignature;
+  src: url("/fonts/Arty\ Signature.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("/fonts/Ubuntu-Regular.ttf") format("opentype");
+}
+
+body {
+  color: $font-color;
+  background-color: $color-background;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  font-family: "Ubuntu", sans-serif;
+
+  font-weight: 400;
+  font-style: normal;
+}

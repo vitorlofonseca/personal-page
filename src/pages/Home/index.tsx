@@ -1,18 +1,18 @@
-import { SocialNetwork } from "./components/SocialNetwork/SocialNetwork";
-import styles from "./App.module.scss";
-import { Course } from "./components/Course/Course";
-import pic from "./assets/pic.jpg";
+import { SocialNetwork } from "../../components/SocialNetwork/SocialNetwork";
+import styles from "./Home.module.scss";
+import { Course } from "../../components/Course/Course";
+import pic from "../../assets/pic.jpg";
 
-import behance from "./assets/social-networks/behance.png";
-import github from "./assets/social-networks/github.png";
-import instagram from "./assets/social-networks/instagram.png";
-import linkedin from "./assets/social-networks/linkedin.png";
-import medium from "./assets/social-networks/medium.png";
+import behance from "../../assets/social-networks/behance.png";
+import github from "../../assets/social-networks/github.png";
+import instagram from "../../assets/social-networks/instagram.png";
+import linkedin from "../../assets/social-networks/linkedin.png";
+import medium from "../../assets/social-networks/medium.png";
 
-import webPerformance from "./assets/courses/web-performance.png";
-import frontendArchitecture from "./assets/courses/frontend-architecture.png";
+import webPerformance from "../../assets/courses/web-performance.png";
+import frontendArchitecture from "../../assets/courses/frontend-architecture.png";
 
-const App = () => {
+const Home = () => {
   return (
     <div className={styles.container}>
       <img className={styles.picture} src={pic} alt="Vitor's Fonseca picture" />
@@ -65,4 +65,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;
