@@ -3,6 +3,7 @@ import pic from "../../assets/pic.jpg";
 import rocket from "../../assets/rocket.png";
 import Button from "@mui/material/Button";
 import EastIcon from "@mui/icons-material/East";
+import { ArrowDown } from "../../components/ArrowDown";
 
 const WebPerformance = () => {
   return (
@@ -29,6 +30,8 @@ const WebPerformance = () => {
       >
         Check course!
       </Button>
+
+      <ArrowDown />
     </div>
   );
 };
