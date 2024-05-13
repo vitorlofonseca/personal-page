@@ -1,4 +1,14 @@
 .arrowDown {
-  position: absolute;
-  bottom: 0;
+  margin-top: 20px;
+
+  &--right {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.8s ease;
+    left: auto;
+    right: 0;
+    transform: translateX(0%);
+  }
 }
