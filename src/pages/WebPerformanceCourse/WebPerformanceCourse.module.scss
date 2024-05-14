@@ -1,13 +1,19 @@
 .container {
   width: 90%;
-  margin: 2rem 0;
 }
 
 .section {
-  height: calc(100vh - 20px);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.receptionSection {
+  & > * {
+    flex-grow: 1;
+    margin: 10px;
+  }
 }
 
 .rocket {
@@ -17,7 +23,7 @@
 .courseName {
   text-align: center;
   font-family: ArtySignature;
-  font-size: 8em;
+  font-size: 13vw;
   letter-spacing: 0.1em;
 }
 
@@ -57,27 +63,22 @@
   grid-template-columns: auto auto auto;
   column-gap: 10px;
   row-gap: 10px;
-  margin-top: 30px;
 }
 
-@media only screen and (max-width: 837px) {
-  .courseName {
-    font-size: 7em;
+@media only screen and (max-width: 860px) {
+  .modules {
+    grid-template-columns: auto auto;
   }
 }
 
-@media only screen and (max-width: 736px) {
-  .courseName {
-    font-size: 6em;
-  }
-}
-
-@media only screen and (max-width: 530px) {
-  .courseName {
-    font-size: 5em;
-  }
-
+@media only screen and (max-width: 660px) {
   .rocket {
     height: 10em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .courseName {
+    font-size: 8em;
   }
 }

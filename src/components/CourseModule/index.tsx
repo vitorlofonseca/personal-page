@@ -5,7 +5,7 @@ export const CourseModule = ({ name, description, children }) => {
     <div className={styles.courseModule}>
       {children}
       <h3>{name}</h3>
-      <h5>{description}</h5>
+      <h5 className={styles.description}>{description}</h5>
     </div>
   );
 };

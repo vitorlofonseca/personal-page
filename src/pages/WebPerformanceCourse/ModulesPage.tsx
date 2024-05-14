@@ -49,7 +49,7 @@ export const ModulesPage = () => {
           <MemoryIcon />
         </CourseModule>
         <CourseModule
-          name={"Planning and Monitoring Performance Improvement"}
+          name={"Planning and Monitoring Performance"}
           description={
             "Develop skills in planning and implementing performance improvement initiatives, including setting goals and using monitoring tools"
           }

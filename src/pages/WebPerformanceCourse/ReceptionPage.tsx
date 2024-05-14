@@ -7,7 +7,7 @@ import { ArrowDown } from "../../components/ArrowDown";
 
 const ReceptionPage = () => {
   return (
-    <div className={styles.section}>
+    <div className={`${styles.section} ${styles.receptionSection}`}>
       <img className={styles.rocket} src={rocket} alt="Rocket picture" />
       <span className={styles.courseName}>Web Performance Bootcamp</span>
       <div className={styles.description}>
@@ -23,13 +23,15 @@ const ReceptionPage = () => {
 
         <span className={styles.creator}>by Vitor Fonseca</span>
       </div>
-      <Button
-        variant="contained"
-        className={styles.callToAction}
-        endIcon={<EastIcon />}
-      >
-        Check course!
-      </Button>
+      <div>
+        <Button
+          variant="contained"
+          className={styles.callToAction}
+          endIcon={<EastIcon />}
+        >
+          Check course!
+        </Button>
+      </div>
 
       <ArrowDown />
     </div>
