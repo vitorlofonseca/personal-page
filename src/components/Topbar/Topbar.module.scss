@@ -5,7 +5,7 @@
   background-color: darken($color-background, 5%);
   width: 98vw;
   position: fixed;
-  gap: 5em;
+  gap: 5%;
   z-index: 1;
   transition: opacity 0.5s ease-out, visibility 0s 0.5s;
   opacity: 0;
@@ -15,5 +15,22 @@
     visibility: visible;
     opacity: 1;
     transition: opacity 0.5s ease-out, visibility 0s;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  header {
+    h3 {
+      font-size: 1em;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header {
+    height: 60px;
+    h3 {
+      display: none;
+    }
   }
 }
