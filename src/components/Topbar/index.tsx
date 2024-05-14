@@ -3,7 +3,11 @@ import { getViewportBottom } from "../../utils/viewport";
 import { CallToAction } from "../CallToAction";
 import styles from "./Topbar.module.scss";
 
-export const Topbar = ({ title }) => {
+interface Props {
+  title: string;
+}
+
+export const Topbar = ({ title }: Props) => {
   const viewportBottom = getViewportBottom();
   const [topbarIsVisible, setTopbarIsVisible] = useState(false);
 

@@ -1,6 +1,12 @@
 import styles from "./CourseModule.module.scss";
 
-export const CourseModule = ({ name, description, children }) => {
+interface Props {
+  name: string;
+  description: string;
+  children: string | JSX.Element | JSX.Element[];
+}
+
+export const CourseModule = ({ name, description, children }: Props) => {
   return (
     <div className={styles.courseModule}>
       {children}

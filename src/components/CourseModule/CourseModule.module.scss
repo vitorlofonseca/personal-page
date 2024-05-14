@@ -12,3 +12,15 @@
     display: none;
   }
 }
+
+@media only screen and (min-width: 700px) {
+  .courseModule {
+    h3 {
+      font-size: 1.5em;
+    }
+
+    h5 {
+      font-size: 1em;
+    }
+  }
+}
