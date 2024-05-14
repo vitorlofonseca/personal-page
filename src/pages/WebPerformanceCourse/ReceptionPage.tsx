@@ -1,9 +1,8 @@
 import styles from "./WebPerformanceCourse.module.scss";
 import pic from "../../assets/pic.jpg";
 import rocket from "../../assets/rocket.png";
-import Button from "@mui/material/Button";
-import EastIcon from "@mui/icons-material/East";
 import { ArrowDown } from "../../components/ArrowDown";
+import { CallToAction } from "../../components/CallToAction";
 
 const ReceptionPage = () => {
   return (
@@ -24,13 +23,7 @@ const ReceptionPage = () => {
         <span className={styles.creator}>by Vitor Fonseca</span>
       </div>
       <div>
-        <Button
-          variant="contained"
-          className={styles.callToAction}
-          endIcon={<EastIcon />}
-        >
-          Check course!
-        </Button>
+        <CallToAction />
       </div>
 
       <ArrowDown />
