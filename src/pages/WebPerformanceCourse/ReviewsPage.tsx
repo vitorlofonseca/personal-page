@@ -7,7 +7,7 @@ export const ReviewsPage = () => {
     <div className={styles.section}>
       <h1 className={styles["section__title"]}>Course Reviews</h1>
 
-      <h4>Check below what students talk about this course</h4>
+      <h4>Check below what students are talking about this course:</h4>
 
       <img
         className={styles.reviewsImage}
