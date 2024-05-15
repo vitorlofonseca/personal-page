@@ -1,5 +1,5 @@
 import styles from "./ArrowDown.module.scss";
-import arrowDown from "../../assets/arrow-down.webm";
+import arrowDown from "../../assets/arrow-down.gif";
 import { useEffect, useState } from "react";
 import { getViewportBottom, userGotToTheBottom } from "../../utils/viewport";
 
@@ -28,10 +28,11 @@ export const ArrowDown = () => {
             arrowDownIsRight && styles["arrowDown--right"]
           }`}
         >
-          <video width="80" height="80" autoPlay loop muted>
+          <img src={arrowDown} alt="Arrow to scroll gif" />
+          {/* <video width="80" height="80" autoPlay loop muted>
             <source src={arrowDown} type="video/mp4" />
             Your browser does not support the video tag.
-          </video>
+          </video> */}
         </div>
       )}
     </>

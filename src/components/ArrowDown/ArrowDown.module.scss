@@ -1,6 +1,10 @@
 .arrowDown {
   margin-top: 20px;
 
+  img {
+    height: 70px;
+  }
+
   &--right {
     position: fixed;
     bottom: 0;
