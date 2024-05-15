@@ -11,7 +11,7 @@ import { CallToAction } from "../../components/CallToAction";
 export const ProgramPage = () => {
   return (
     <div className={styles.section}>
-      <h1>Course program</h1>
+      <h1 className={styles["section__title"]}>Course program</h1>
 
       <div className={`${styles.endSection} ${styles.programTopics}`}>
         <CourseProgram
