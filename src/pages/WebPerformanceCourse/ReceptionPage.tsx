@@ -8,7 +8,7 @@ const ReceptionPage = () => {
   return (
     <div className={`${styles.section} ${styles.receptionSection}`}>
       <img className={styles.rocket} src={rocket} alt="Rocket picture" />
-      <span className={styles.courseName}>Web Performance Bootcamp</span>
+      <span className={styles.courseName}>Web Performance</span>
       <div className={styles.description}>
         Accelerate Your Success Online: Master Web Performance for
         Lightning-Fast Websites and Incredible User Experience!
