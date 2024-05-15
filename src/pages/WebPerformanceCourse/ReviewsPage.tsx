@@ -1,5 +1,4 @@
 import styles from "./WebPerformanceCourse.module.scss";
-import { CallToAction } from "../../components/CallToAction";
 import reviewsImage from "../../assets/reviews.png";
 
 export const ReviewsPage = () => {
@@ -14,8 +13,6 @@ export const ReviewsPage = () => {
         src={reviewsImage}
         alt="Reviews image"
       />
-
-      <CallToAction />
     </div>
   );
 };

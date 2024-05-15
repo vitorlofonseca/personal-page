@@ -4,6 +4,7 @@ import ReceptionPage from "./ReceptionPage";
 import { ReviewsPage } from "./ReviewsPage";
 import { ProgramPage } from "./ProgramPage";
 import styles from "./WebPerformanceCourse.module.scss";
+import { Conclusion } from "./Conclusion";
 
 const WebPerformance = () => {
   return (
@@ -14,6 +15,7 @@ const WebPerformance = () => {
         <ModulesPage />
         <ProgramPage />
         <ReviewsPage />
+        <Conclusion />
       </div>
     </div>
   );
