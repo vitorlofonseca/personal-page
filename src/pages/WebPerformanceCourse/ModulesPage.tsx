@@ -6,6 +6,7 @@ import MemoryIcon from "@mui/icons-material/Memory";
 import StorageIcon from "@mui/icons-material/Storage";
 import DriveFileRenameOutlineIcon from "@mui/icons-material/DriveFileRenameOutline";
 import CheckBoxIcon from "@mui/icons-material/CheckBox";
+import { CallToAction } from "../../components/CallToAction";
 
 export const ModulesPage = () => {
   return (
@@ -65,6 +66,8 @@ export const ModulesPage = () => {
           <CheckBoxIcon />
         </CourseModule>
       </div>
+
+      <CallToAction />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import { Topbar } from "../../components/Topbar";
 import { ModulesPage } from "./ModulesPage";
 import ReceptionPage from "./ReceptionPage";
+import { ReviewsPage } from "./ReviewsPage";
 import styles from "./WebPerformanceCourse.module.scss";
 
 const WebPerformance = () => {
@@ -10,6 +11,7 @@ const WebPerformance = () => {
       <div className={styles.container}>
         <ReceptionPage />
         <ModulesPage />
+        <ReviewsPage />
       </div>
     </div>
   );
