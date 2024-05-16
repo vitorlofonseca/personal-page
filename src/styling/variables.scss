@@ -7,6 +7,10 @@ $grey-1: #c4c2c2;
   font-family: ArtySignature;
   src: url("/fonts/Arty\ Signature.otf") format("opentype");
 }
+@font-face {
+  font-family: SpaceMono;
+  src: url("/fonts/SpaceMono-Regular.ttf") format("opentype");
+}
 
 @font-face {
   font-family: Ubuntu;
