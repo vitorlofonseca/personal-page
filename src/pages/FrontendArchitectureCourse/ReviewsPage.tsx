@@ -1,5 +1,5 @@
-import styles from "./WebPerformanceCourse.module.scss";
-import reviewsImage from "../../assets/web-performance-reviews.png";
+import styles from "./FrontendArchitecture.module.scss";
+import reviewsImage from "../../assets/frontend-architecture-reviews.png";
 
 export const ReviewsPage = () => {
   return (

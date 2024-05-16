@@ -5,9 +5,10 @@ import styles from "./Topbar.module.scss";
 
 interface Props {
   title: string;
+  url?: string;
 }
 
-export const Topbar = ({ title }: Props) => {
+export const Topbar = ({ title, url }: Props) => {
   const viewportBottom = getViewportBottom();
   const [topbarIsVisible, setTopbarIsVisible] = useState(false);
 
@@ -28,7 +29,7 @@ export const Topbar = ({ title }: Props) => {
       }`}
     >
       <h3>{title}</h3>
-      <CallToAction size="small" />
+      <CallToAction size="small" url={url} />
     </header>
   );
 };

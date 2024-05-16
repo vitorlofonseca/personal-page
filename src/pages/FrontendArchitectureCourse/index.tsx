@@ -3,16 +3,19 @@ import { ModulesPage } from "./ModulesPage";
 import ReceptionPage from "./ReceptionPage";
 import { ReviewsPage } from "./ReviewsPage";
 import { ProgramPage } from "./ProgramPage";
-import styles from "./WebPerformanceCourse.module.scss";
+import styles from "./FrontendArchitecture.module.scss";
 import { Conclusion } from "./Conclusion";
 import { ThemeProvider } from "@mui/material/styles";
-import { orangeTheme } from "../../styling/theme";
+import { blueTheme } from "../../styling/theme";
 
-const WebPerformance = () => {
+const FrontendArchitecture = () => {
   return (
-    <ThemeProvider theme={orangeTheme}>
+    <ThemeProvider theme={blueTheme}>
       <div className={styles.coursePage}>
-        <Topbar title={"Web Performance Bootcamp"} />
+        <Topbar
+          title={"Frontend Architecture Bootcamp"}
+          url="https://www.udemy.com/course/frontend-architecture-and-patterns/?couponCode=FONSECAS-GIFT"
+        />
         <div className={styles.container}>
           <ReceptionPage />
           <ModulesPage />
@@ -25,4 +28,4 @@ const WebPerformance = () => {
   );
 };
 
-export default WebPerformance;
+export default FrontendArchitecture;

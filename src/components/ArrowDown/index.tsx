@@ -1,12 +1,20 @@
 import styles from "./ArrowDown.module.scss";
-import arrowDown from "../../assets/arrow-down.gif";
 import { useEffect, useState } from "react";
 import { getViewportBottom, userGotToTheBottom } from "../../utils/viewport";
 
-export const ArrowDown = () => {
+interface Props {
+  color?: string;
+}
+
+export const ArrowDown = ({ color = "orange" }: Props) => {
   const viewportBottom = getViewportBottom();
   const [arrowDownIsRight, setArrowDownIsRight] = useState(false);
   const [arrowDownIsVisible, setArrowDownIsVisible] = useState(true);
+  const [arrowDown, setArrowDown] = useState("");
+
+  import(`../../assets/${color}-arrow-down.gif`).then((data) => {
+    setArrowDown(data.default);
+  });
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -29,10 +37,6 @@ export const ArrowDown = () => {
           }`}
         >
           <img src={arrowDown} alt="Arrow to scroll gif" />
-          {/* <video width="80" height="80" autoPlay loop muted>
-            <source src={arrowDown} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video> */}
         </div>
       )}
     </>

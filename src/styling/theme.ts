@@ -1,9 +1,8 @@
-import { createTheme } from "@mui/material/styles";
-import { deepOrange } from "@mui/material/colors";
+import { ThemeOptions, createTheme } from "@mui/material/styles";
+import { blue, deepOrange } from "@mui/material/colors";
 
-export const theme = createTheme({
+const theme: ThemeOptions = {
   palette: {
-    primary: deepOrange,
     mode: "dark",
   },
   typography: {
@@ -12,4 +11,14 @@ export const theme = createTheme({
       textTransform: "none",
     },
   },
+};
+
+export const orangeTheme = createTheme({
+  ...theme,
+  palette: { ...theme.palette, primary: deepOrange },
+});
+
+export const blueTheme = createTheme({
+  ...theme,
+  palette: { ...theme.palette, primary: blue },
 });
