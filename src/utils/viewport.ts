@@ -15,5 +15,5 @@ export const userGotToTheBottom = () => {
 
   var windowHeight = window.innerHeight;
 
-  return scrollPosition + windowHeight >= documentHeight;
+  return scrollPosition + windowHeight >= documentHeight - 100;
 };
