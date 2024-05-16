@@ -10,8 +10,8 @@ const ReceptionPage = () => {
       <img className={styles.rocket} src={rocket} alt="Rocket picture" />
       <span className={styles.courseName}>Web Performance</span>
       <div className={styles.description}>
-        Accelerate Your Success Online: Master Web Performance for
-        Lightning-Fast Websites and Incredible User Experience!
+        Ultimate guide to learn how to improve web performance, through
+        Javascript, Web Vitals, Chrome Dev Tools, CDNs and more!
       </div>
       <div className={styles.courseCreator}>
         <img
