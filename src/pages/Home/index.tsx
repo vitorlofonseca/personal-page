@@ -51,7 +51,7 @@ const Home = () => {
         <div className={styles.coursesCarousel}>
           <Course
             name="web-performance"
-            url="https://www.udemy.com/course/mastering-web-performance-optimization/?couponCode=FONSECAS-GIFT"
+            url="https://www.udemy.com/course/mastering-web-performance-optimization/?referralCode=446D0AB3B2F7E67987D6"
             image={webPerformance}
           />
           <Course
