@@ -4,7 +4,7 @@ import EastIcon from "@mui/icons-material/East";
 
 export const CallToAction = ({
   size = "large",
-  url = "https://www.udemy.com/course/mastering-web-performance-optimization/?referralCode=446D0AB3B2F7E67987D6",
+  url = "https://www.udemy.com/course/mastering-web-performance-optimization/?couponCode=FONSECAS-GIFT-JUNE",
 }) => {
   function openCourse() {
     window.open(url, "_blank");
